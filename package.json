@@ -1,0 +1,31 @@
+{
+  "name": "irshad-color-log",
+  "version": "1.0.0",
+  "description": "NPM package for colorizing console log outuput",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irshad0729/irshad-color-log.git"
+  },
+  "keywords": [
+    "irshad-console=log",
+    "console-log-color"
+  ],
+  "author": "Irshad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irshad0729/irshad-color-log/issues"
+  },
+  "homepage": "https://github.com/irshad0729/irshad-color-log#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
